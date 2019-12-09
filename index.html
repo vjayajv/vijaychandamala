@@ -3,8 +3,14 @@ layout: default
 ---
 
 <body>
-<h1> Text processing commands (LINUX) </h1>
-
-- awk -F'/' '{print $1}'
-  - grep -o '/.*'
+<h1> ES CLUSTERING (LINUX) </h1>
+cluster.name: "docker-cluster"
+network.host: 0.0.0.0
+node.name: master
+node.master: true
+node.data: true
+http.port: 9200
+discovery.zen.ping.unicast.hosts: ["node1", "node2","master"]
+discovery.zen.minimum_master_nodes: 1
+xpack.license.self_generated.type: basic
 </body>
