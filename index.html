@@ -4,4 +4,15 @@ layout: default
 
 <body>
 # Hello World
+  Redis Commands:
+----------------------
+docker exec -it redis bash
+cd tmp && mkdir dbfile && redis-cli
+CONFIG GET requirepass
+config set requirepass 2Vv2d4&A?5aZjb4v&fq@
+auth 2Vv2d4&A?5aZjb4v&fq@
+CONFIG GET requirepass
+CONFIG SET dir /tmp/dbfile/
+CONFIG SET dbfilename temp.rdb
+BGSAVE
 </body>
