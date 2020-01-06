@@ -3,9 +3,9 @@
 layout: default
 ---
 
-[Python + flask a basic webapp to run a local shell script] (https://vijaychandamala.github.io/py-flask/)
+[ Python + flask a basic webapp to run a local shell script ] ( https://vijaychandamala.github.io/py-flask/ )
 
-[Python + RabbitMQ to spawn containers based on messages in queue] (https://vijaychandamala.github.io/py-rmq/)
+[ Python + RabbitMQ to spawn containers based on messages in queue ] ( https://vijaychandamala.github.io/py-rmq/ )
 
 
 # COMMANDS,SCRIPTS AND STUFF
